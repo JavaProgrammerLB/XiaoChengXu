@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<view class="container">
+    <form>
+    <text>老刘最爱谁？：</text>
+        <input id="name" class="myinput" placeholder="输入答案" auto-focus/>
+        <button bindtap="formSubmit">提交</button>
+    </form>
+    <view id="answer"></view>
+</view>
